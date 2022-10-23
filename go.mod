@@ -1,4 +1,4 @@
-module nhooyr.io/websocket
+module kenhan168/websocket
 
 go 1.13
 
