@@ -1,5 +1,5 @@
 // Package wsjson provides helpers for reading and writing JSON messages.
-package wsjson // import "nhooyr.io/websocket/wsjson"
+package wsjson // import "kenhan168/websocket/wsjson"
 
 import (
 	"context"
@@ -7,9 +7,9 @@ import (
 
 	"github.com/goccy/go-json"
 
-	"nhooyr.io/websocket"
-	"nhooyr.io/websocket/internal/bpool"
-	"nhooyr.io/websocket/internal/errd"
+	"kenhan168/websocket"
+	"kenhan168/websocket/internal/bpool"
+	"kenhan168/websocket/internal/errd"
 )
 
 // Read reads a JSON message from c into v.
