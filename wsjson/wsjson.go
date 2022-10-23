@@ -3,8 +3,9 @@ package wsjson // import "nhooyr.io/websocket/wsjson"
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
+
+	"github.com/goccy/go-json"
 
 	"nhooyr.io/websocket"
 	"nhooyr.io/websocket/internal/bpool"
