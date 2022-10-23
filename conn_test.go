@@ -21,14 +21,14 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/duration"
 
-	"kenhan168/websocket"
-	"kenhan168/websocket/internal/errd"
-	"kenhan168/websocket/internal/test/assert"
-	"kenhan168/websocket/internal/test/wstest"
-	"kenhan168/websocket/internal/test/xrand"
-	"kenhan168/websocket/internal/xsync"
-	"kenhan168/websocket/wsjson"
-	"kenhan168/websocket/wspb"
+	"github.com/kenhan168/websocket"
+	"github.com/kenhan168/websocket/internal/errd"
+	"github.com/kenhan168/websocket/internal/test/assert"
+	"github.com/kenhan168/websocket/internal/test/wstest"
+	"github.com/kenhan168/websocket/internal/test/xrand"
+	"github.com/kenhan168/websocket/internal/xsync"
+	"github.com/kenhan168/websocket/wsjson"
+	"github.com/kenhan168/websocket/wspb"
 )
 
 func TestConn(t *testing.T) {

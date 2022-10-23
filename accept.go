@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"kenhan168/websocket/internal/errd"
+	"github.com/kenhan168/websocket/internal/errd"
 )
 
 // AcceptOptions represents Accept's options.

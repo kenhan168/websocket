@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"kenhan168/websocket/internal/errd"
-	"kenhan168/websocket/internal/xsync"
+	"github.com/kenhan168/websocket/internal/errd"
+	"github.com/kenhan168/websocket/internal/xsync"
 )
 
 // Reader reads from the connection until there is a WebSocket

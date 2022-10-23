@@ -7,10 +7,10 @@ import (
 	"io"
 	"time"
 
-	"kenhan168/websocket"
-	"kenhan168/websocket/internal/test/assert"
-	"kenhan168/websocket/internal/test/xrand"
-	"kenhan168/websocket/internal/xsync"
+	"github.com/kenhan168/websocket"
+	"github.com/kenhan168/websocket/internal/test/assert"
+	"github.com/kenhan168/websocket/internal/test/xrand"
+	"github.com/kenhan168/websocket/internal/xsync"
 )
 
 // EchoLoop echos every msg received from c until an error

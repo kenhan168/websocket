@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"kenhan168/websocket/internal/errd"
+	"github.com/kenhan168/websocket/internal/errd"
 )
 
 // DialOptions represents Dial's options.

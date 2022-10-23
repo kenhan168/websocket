@@ -11,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	"kenhan168/websocket/internal/errd"
+	"github.com/kenhan168/websocket/internal/errd"
 )
 
 // Close performs the WebSocket close handshake with the given status code and reason.

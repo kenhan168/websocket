@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"kenhan168/websocket"
+	"github.com/kenhan168/websocket"
 )
 
 // Pipe is used to create an in memory connection

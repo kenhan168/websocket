@@ -8,7 +8,7 @@ import (
 	"math"
 	"math/bits"
 
-	"kenhan168/websocket/internal/errd"
+	"github.com/kenhan168/websocket/internal/errd"
 )
 
 // opcode represents a WebSocket opcode.
